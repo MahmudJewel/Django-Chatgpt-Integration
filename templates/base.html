@@ -7,7 +7,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Live Chat</title>
+  <title>ChatGPT Integrations</title>
   <!-- title icon  -->
   <!-- <link rel="icon" type="image/png" href="media/titleicon.png"> -->
   <!-- botstrap 5  -->
@@ -57,14 +57,14 @@
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
           <li class="nav-item me-2 mb-lg-0 mb-3">
-            <a class=" btn " aria-current="page" href="">Blog</a>
+            <a class=" btn " aria-current="page" href="#">Blog</a>
           </li>
 
           <li class="nav-item me-2 mb-lg-0 mb-3">
-            <a class=" btn " aria-current="page" href="">Cat</a>
+            <a class=" btn " aria-current="page" href="#">Cat</a>
           </li>
         </ul>
-        <form class="d-flex" method="post" action="/">
+        <form class="d-flex" method="post" action="#">
           {% csrf_token %}
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="search"
             value="{{search}}" />
