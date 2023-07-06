@@ -3,7 +3,7 @@ from django.shortcuts import render
 from django.conf import settings
 import openai
 openai.api_key = settings.OPENAI_API_KEY
-
+print('from views ===>', settings.OPENAI_API_KEY)
 # generate text 
 def home(request):
     template_name = 'home.html'
