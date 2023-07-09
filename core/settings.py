@@ -26,10 +26,8 @@ MEDIA_DIR = os.path.join(BASE_DIR, 'media')
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-k=z7j%qq0@#-2#cuk9(jsuj9^%&c(2b()1g8fpl$b%&1^u0f7='
-# OPENAI_API_KEY = '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'
-# OPENAI_API_KEY = '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'
 OPENAI_API_KEY = config("OPENAI_API_KEY2")  # MME
-print('======>Open==>',OPENAI_API_KEY)
+# print('======>Open==>',OPENAI_API_KEY)
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
